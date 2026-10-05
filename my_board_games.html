@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
+		<title>John W's Board Games</title>
+		<script type="text/javascript" src="game_objects.js" defer></script>
+		<script type="text/javascript" src="table_code.js" defer></script>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body onload="loadPage()">
+		<div id="main" class="content">
+			<table border="1" id="games" class="game_tables">
+		</table></div>
+		<div id="future_div" class="content">
+			<hr>
+			<div id="discord_list"></div>
+			<button type="button" onclick="toggleHidden('future_purchases')">Ones to maybe buy later</button>
+			<table border="1" id="future_purchases" class="game_tables hidden">
+			</table>
+		</div>
+		<div id="tag_window" class="modal not_shown">
+			<div id="tag_inputs" class="modal_inputs">
+				<p id="tag_label" class="modal_label"></p>
+				<div id="tag_container">
+					<table id="tag_table" class="game_tables"></table>
+				</div>
+				<br>
+				<button type="button" id="close_tag_button" onclick="hideModal('tag_window')">Close</button>
+			</div>
+		</div>
+		<div id="keyword_window" class="modal not_shown">
+			<div id="keyword_inputs" class="modal_inputs">
+				<p class="modal_label">Sort on which keyword?</p>
+				<div id="keyword_container">
+				</div>
+				<br>
+				<button type="button" id="close_keyword_button" onclick="hideModal('keyword_window')">Close</button>
+			</div>
+		</div>
+		<div id="filter_window" class="modal not_shown">
+			<div id="filter_inputs" class="modal_inputs">
+				<div id="filter_container">
+					<table class="centered" id="filter_table">
+					</table>
+				</div>
+				<br>
+				<button type="button" id="apply_filter_button" onclick="applyFilters()">Apply Filters and Close</button>
+				&nbsp;<button type="button" id="reset_filter_button" onclick="resetFilters()">Reset Filters</button>
+			</div>
+		</div>
+		<div id="jump_window" class="modal not_shown">
+			<div id="jump_inputs" class="modal_inputs">
+				<p class="modal_label">Jump to...</p>
+				<div id="jump_container">
+					<table class="centered">
+						<tr>
+							<td><button type="button" onclick="jumpTo('top')">Top</button></td>
+						</tr>
+						<tr>
+							<td><select id="row_menu" onchange="jumpTo('row')"></select></td>
+						</tr>
+						<tr>
+							<td><button type="button" onclick="jumpTo('bottom')">Bottom</button></td>
+						</tr>
+					</table>
+				</div>
+				<p><a href="https://boardgamegeek.com/collection/user/woodsWorld">Board Game Geek collection</a></p>
+				<br>
+				<button type="button" id="close_jump_button" onclick="hideModal('jump_window')">Close</button>
+			</div>
+		</div>
+	</body>
+</html>

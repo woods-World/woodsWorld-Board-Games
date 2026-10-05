@@ -1,0 +1,285 @@
+a:link {
+	color: #2f2fff;
+	text-decoration: none;
+}
+a:visited {
+	color: #2f2fff;
+	text-decoration: none;
+}
+a:hover {
+	color: #2f2fff;
+	text-decoration: underline;
+}
+a:active {
+	color: red;
+	text-decoration: underline;
+}
+table {
+	border-collapse: collapse;
+	border-color: #7f7f7f;
+	max-width: none;
+}
+#keyword_container {
+	text-align: center;
+}
+#row_menu {
+	max-width: 80vw;
+}
+#tag_container {
+	overflow-y: auto;
+	max-height: 95vh;
+}
+#tag_table td {
+	border-top: 1px dotted black;
+	border-bottom: 1px dotted black;
+}
+.category {
+	font-weight: bold;
+}
+.boardgame {
+	color: #00af00;
+}
+.cardgame {
+	color: darkviolet;
+}
+.centered {
+	text-align: center;
+}
+.competitive {
+	color: red;
+}
+.cooperative {
+	color: #FF8C00;
+}
+.comp_coop {
+	color: darkturquoise;
+}
+.team_comp {
+	color: blue;
+}
+.expansionrow td {
+	/* box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.3);
+	background: repeating-linear-gradient(
+		-55deg,
+		rgba(0, 0, 0, 0),
+		rgba(0, 0, 0, 0) 10px,
+		rgba(0, 0, 0, 0.06) 10px,
+		rgba(0, 0, 0, 0.06) 20px
+	); */
+	border-top: 1px solid #cfcfcf;
+}
+.filter_value {
+	font-family: "Courier New", monospace;
+	color: darkgreen;
+	background-color: #cfcfcf;
+}
+.filter-toggle[data-state="ignore"] {
+	/* Don't care */
+	opacity: 0.6;
+}
+
+.filter-toggle[data-state="include"] {
+	/* Include */
+	background-color: lightgreen;
+}
+
+.filter-toggle[data-state="exclude"] {
+	/* Exclude */
+	background-color: lightcoral;
+}
+.gamerow td:not(.mobile) {
+	border-top: 2px solid black;
+	border-bottom: none;
+}
+.game_tables {
+	width: 100%;
+}
+.game_tables:not(#tag_table) td:not(.indented), th {
+	padding: 5px 5px 5px 5px;
+}
+.hastitle {
+	text-decoration: underline;
+	cursor: help;
+}
+.headers th {
+	position: sticky;
+	z-index: 1;
+	background-color: cornsilk;
+	font-size: 18px;
+	/* font-family: "Courier New", "Lucida Console", monospace; */
+}
+.headers th:not(:has(#filter_summary)) {
+	font-variant: small-caps;
+	white-space: nowrap;
+}
+.headers th:not(.two_col, .controls):hover {
+	color: goldenrod;
+	cursor: pointer;
+	/* font-style: italic; */
+	/* text-decoration: underline; */
+	/* font-weight: bold; */
+}
+.headers tr:nth-child(1) th {
+	top: 0;
+	z-index: 2;
+}
+.headers tr:nth-child(2) th {
+	top: var(--header-row-height);
+	z-index: 2;
+}
+.headers tr:nth-child(3) th {
+	top: var(--header-row-height-total);
+	z-index: 2;
+}
+.headers th::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: -2px;
+	height: 2px;
+	background-color: black;
+}
+.hidden {
+	visibility: hidden;
+}
+.highlight_element:hover {
+	color: #7f7f7f;
+	cursor: pointer;
+}
+.indented {
+	padding-left: 20px;
+}
+.indent_arrow {
+	font-size: 20px;
+}
+.keyword {
+	color: darkblue;
+}
+.keyword:hover {
+	font-weight: bold;
+	cursor: pointer;
+}
+.keyword_match {
+	font-weight: bold;
+	color: darkgoldenrod;
+}
+.mobile_entry td {
+	border: 1px solid black;
+	text-align: center;
+}
+.mobile_entry * {
+	font-size: 14px;
+}
+.mobile_labels {
+	font-variant: small-caps;
+	font-weight: bold;
+}
+.mobile_labels:not(.mobile):hover {
+	color: goldenrod;
+	cursor: pointer;
+}
+/* The Modal (background) */
+.modal {
+	position: fixed; /* Stay in place */
+	z-index: 3; /* Sit on top */
+	padding-top: 30px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+.modal_inputs {
+	background-color: white;
+	margin: auto;
+	width: fit-content;
+	max-width: 90vw;
+	height: fit-content;
+	padding: 20px 20px 50px 20px;
+	overflow-y: auto;
+}
+.modal_label {
+	font-size: 18px;
+}
+.not_shown {
+	display: none;
+}
+.no_scroll {
+	overflow: hidden;
+}
+.num_input {
+	width: 4em;
+}
+.range-toggle[data-state="equal"] {
+	/* Equal */
+}
+.range-toggle[data-state="less"] {
+	/* Less Than */
+	background-color: lightgreen;
+}
+.range-toggle[data-state="greater"] {
+	/* Greater Than */
+	background-color: lightcoral;
+}
+.shadedrow {
+	background-color: #cfcfcf;
+}
+.sorting_column {
+	color: darkgoldenrod;
+}
+.wip {
+	color: red;
+	font-style: italic;
+}
+/* Targets phones only */
+@media only screen and (max-width: 480px) {
+	#filter_container {
+		max-height: 60vh;
+		overflow-y: auto;
+	}
+	#filter_summary {
+		font-size: 14px;
+	}
+	#keyword_container {
+		max-height: 60vh;
+		overflow-y: auto;
+	}
+	#tag_container {
+		max-height: 60vh;
+		overflow-y: auto;
+	}
+	.content {
+		width: 98vw;
+	}
+	.mobile_entry {
+		/* width: 100%; */
+	}
+}
+
+/* Targets phones and tablets in portrait mode */
+@media only screen and (max-width: 768px) {
+	#filter_container {
+		max-height: 60vh;
+		overflow-y: auto;
+	}
+	#filter_summary {
+		font-size: 14px;
+	}
+	#keyword_container {
+		max-height: 60vh;
+		overflow-y: auto;
+	}
+	#tag_container {
+		max-height: 60vh;
+		overflow-y: auto;
+	}
+	.content {
+		width: 98vw;
+	}
+	.mobile_entry {
+		/* width: 100%; */
+	}
+}
