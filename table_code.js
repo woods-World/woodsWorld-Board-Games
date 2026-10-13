@@ -623,6 +623,10 @@ var gamePassesFilter = function(gameObj, filterObj) {
 					if (gameObj.tags.indexOf(currFilter.value) == -1 && currFilter.state == "include") {
 						return false;
 					}
+				} else if (column == "version") {
+					if ((gameObj.wip && currFilter.state == "exclude") ||
+					(!gameObj.wip && currFilter.state == "include"))
+						return false;
 				} else {
 					// if there is a match but you're excluding that value
 					if (gameObj[column] == currFilter.value && currFilter.state == "exclude") {
@@ -805,7 +809,7 @@ var generateFilters = function() {
 		lastPlayeds: [],
 		storedIns: []
 	}
-	versionList = [],
+	versionList = ["<button type=\"button\" class=\"filter-toggle\" title=\"Don't care\" data-column=\"version\" data-value=\"WIP\" data-state=\"ignore\" onclick=\"cycleFilter(this)\">WIP</button>"],
 	categoryList = [],
 	gameplayList = [],
 	tagList = [],
