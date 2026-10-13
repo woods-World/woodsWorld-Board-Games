@@ -260,7 +260,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/425745/blasphemous-the-board-game",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "board", "dice", themeStr + "post-apocalypse"],
+		"tags": [needsTagsStr, "based on a video game", "board", "dice", themeStr + "post-apocalypse"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -375,7 +375,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/380135/dead-cells-the-rogue-lite-board-game",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": ["board", "cards", "dice", "roguelike"],
+		"tags": ["based on a video game", "board", "cards", "dice", "roguelike"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -398,7 +398,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/369103/dead-by-daylight-the-board-game-collectors-edition",
 		"category": "Board Game",
 		"gameplayType": "Team-Competitive",
-		"tags": ["asymmetric gameplay/victory", "board", "dice", "player elimination", themeStr + "supernatural horror"],
+		"tags": ["asymmetric gameplay/victory", "based on a video game", "board", "dice", "player elimination", themeStr + "supernatural horror"],
 		"minPlayers": 3,
 		"maxPlayers": 5,
 		"numPlayersNote": [
@@ -467,7 +467,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/462623/die-in-the-dungeon-the-board-game",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": [needsTagsStr, "board", "dice", "roguelike"],
+		"tags": [needsTagsStr, "based on a video game", "board", "dice", "roguelike"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -743,7 +743,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/356873/lunar-rush",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": ["board", "cards", "no randomness", themeStr + "digging for resources", "worker placement"],
+		"tags": ["board", "cards", "no randomness", themeStr + "digging for resources", themeStr + "space", "worker placement"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -1059,6 +1059,29 @@ boardGames = [
 		]
 	},
 	{
+		"name": "Satisfactory: The Board Game",
+		"version": "",
+		"url": "https://boardgamegeek.com/boardgame/478662/satisfactory-the-board-game",
+		"category": "Board Game",
+		"gameplayType": "Competitive",
+		"tags": [needsTagsStr, "based on a video game", "board", "cards", themeStr + "digging for resources", themeStr + "space"],
+		"minPlayers": 1,
+		"maxPlayers": 4,
+		"numPlayersNote": [
+			"",
+			""
+		],
+		"minTime": 90,
+		"maxTime": 180,
+		"complexity": 0,
+		"lastPlayed": noDataStr,
+		"storageLocation": noDataStr,
+		"description": "Pioneers working for a space mining company are exploring an alien planet to build a network of factories to collect and export resources, competing to complete the Space Elevator",
+		"notes": "Based on the video game of the same name",
+		"wip": true,
+		"expansions": []
+	},
+	{
 		"name": "Secret Hitler",
 		"version": "",
 		"url": "https://boardgamegeek.com/boardgame/188834/secret-hitler",
@@ -1179,7 +1202,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/391286/terraria-the-board-game",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": ["board", "cards", "dice", themeStr + "digging for resources"],
+		"tags": ["based on a video game", "board", "cards", "dice", themeStr + "digging for resources"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -1317,7 +1340,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/397788/worms-the-board-game",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": ["cards", "dice", "last one standing", "player elimination", "tile placement"],
+		"tags": ["based on a video game", "cards", "dice", "last one standing", "player elimination", "tile placement"],
 		"minPlayers": 2,
 		"maxPlayers": 6,
 		"numPlayersNote": [
