@@ -614,7 +614,11 @@ var gamePassesFilter = function(gameObj, filterObj) {
 			for (var f = 0; f < filterObj[column].length; f++) {
 				var currFilter = filterObj[column][f];
 				
-				if (column == "tags") {
+				if (column == "version" && currFilter.value == "WIP") {
+					if ((gameObj.wip && currFilter.state == "exclude") ||
+					(!gameObj.wip && currFilter.state == "include"))
+						return false;
+				} else if (column == "tags") {
 					// if there is a match but you're excluding that value
 					if (gameObj.tags.indexOf(currFilter.value) > -1 && currFilter.state == "exclude") {
 						return false;
@@ -623,10 +627,6 @@ var gamePassesFilter = function(gameObj, filterObj) {
 					if (gameObj.tags.indexOf(currFilter.value) == -1 && currFilter.state == "include") {
 						return false;
 					}
-				} else if (column == "version") {
-					if ((gameObj.wip && currFilter.state == "exclude") ||
-					(!gameObj.wip && currFilter.state == "include"))
-						return false;
 				} else {
 					// if there is a match but you're excluding that value
 					if (gameObj[column] == currFilter.value && currFilter.state == "exclude") {
