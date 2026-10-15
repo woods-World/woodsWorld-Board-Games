@@ -807,6 +807,98 @@ boardGames = [
 		"expansions": []
 	},
 	{
+		"name": "Plants vs. Zombies: The Board Game",
+		"version": "Deluxe Edition",
+		"url": "https://boardgamegeek.com/boardgame/471020/plants-vs-zombies-the-board-game",
+		"category": "Board Game",
+		"gameplayType": "Cooperative",
+		"tags": [needsTagsStr, "area defense", "board", "cards", themeStr + "based on a video game"],
+		"minPlayers": 1,
+		"maxPlayers": 4,
+		"numPlayersNote": [
+			"",
+			""
+		],
+		"minTime": 30,
+		"maxTime": 60,
+		"complexity": 0,
+		"lastPlayed": noDataStr,
+		"storageLocation": noDataStr,
+		"description": "Gather sunlight to grow plants and defend the house against zombies",
+		"notes": "Based on the video game franchise of the same name",
+		"wip": true,
+		"expansions": [
+			/*
+			{
+				"name": "Night Expansion",
+				"version": "Expansion",
+				"url": "https://boardgamegeek.com/boardgame/471020/plants-vs-zombies-the-board-game/expansions",
+				"category": "Board Game",
+				"gameplayType": "Cooperative",
+				"tags": [needsTagsStr, "area defense", "board", "cards", themeStr + "based on a video game"],
+				"minPlayers": 1,
+				"maxPlayers": 4,
+				"numPlayersNote": [
+					"",
+					""
+				],
+				"minTime": 30,
+				"maxTime": 60,
+				"complexity": 0.00,
+				"lastPlayed": noDataStr,
+				"storageLocation": noDataStr,
+				"description": "Adds content from the game's night mode, including new plants, enemies, and challenges",
+				"notes": "",
+				"wip": true
+			},
+			{
+				"name": "Pool Party Mini Expansion",
+				"version": "Expansion",
+				"url": "https://boardgamegeek.com/boardgame/471020/plants-vs-zombies-the-board-game/expansions",
+				"category": "Board Game",
+				"gameplayType": "Cooperative",
+				"tags": [needsTagsStr, "area defense", "board", "cards", themeStr + "based on a video game"],
+				"minPlayers": 1,
+				"maxPlayers": 4,
+				"numPlayersNote": [
+					"",
+					""
+				],
+				"minTime": 30,
+				"maxTime": 60,
+				"complexity": 0.00,
+				"lastPlayed": noDataStr,
+				"storageLocation": noDataStr,
+				"description": "Adds aquatic content",
+				"notes": "",
+				"wip": true
+			},
+			{
+				"name": "Pirate Seas Mini Expansion",
+				"version": "Expansion",
+				"url": "https://boardgamegeek.com/boardgame/471020/plants-vs-zombies-the-board-game/expansions",
+				"category": "Board Game",
+				"gameplayType": "Cooperative",
+				"tags": [needsTagsStr, "area defense", "board", "cards", themeStr + "based on a video game"],
+				"minPlayers": 1,
+				"maxPlayers": 4,
+				"numPlayersNote": [
+					"",
+					""
+				],
+				"minTime": 30,
+				"maxTime": 60,
+				"complexity": 0.00,
+				"lastPlayed": noDataStr,
+				"storageLocation": noDataStr,
+				"description": "Adds nautical content",
+				"notes": "",
+				"wip": true
+			}
+			*/
+		]
+	},
+	{
 		"name": "Rebirth",
 		"version": "",
 		"url": "https://boardgamegeek.com/boardgame/417197/rebirth",
