@@ -144,11 +144,11 @@ var generateHeaders = function(filterObj) {
 	}
 	
 	var jumpButton = "<button type=\"button\" onclick=\"populateJumpModal()\">Jump To...</button>",
-	firstHeaderRow = "<thead class=\"headers\"><tr><th class=\"controls\" colspan=\"15\"><button type=\"button\" onclick=\"toggleWIP(this)\">WIP</button>&nbsp;<button type=\"button\" onclick=\"showModal('filter_window')\">Filters</button>"+(showJumpOnDesktop ? "&nbsp;" + jumpButton : "")+"<div id=\"filter_summary\">"+(filterStr.length > 0 ? filterStr.join(", ") : "")+"</div></th></tr><tr><th rowspan=\"2\"></th>",
+	firstHeaderRow = "<thead class=\"headers\"><tr><th class=\"controls\" colspan=\"15\"><button type=\"button\" onclick=\"toggleWIP(this)\">"+(showWIP ? "Hide WIP" : "Show WIP")+"</button>&nbsp;<button type=\"button\" onclick=\"showModal('filter_window')\">Filters</button>"+(showJumpOnDesktop ? "&nbsp;" + jumpButton : "")+"<div id=\"filter_summary\">"+(filterStr.length > 0 ? filterStr.join(", ") : "")+"</div></th></tr><tr><th rowspan=\"2\"></th>",
 	secondHeaderRow = "<tr>";
 	
 	if (isMobile) {
-		return "<thead class=\"headers\"><tr><th class=\"controls\" colspan=\"2\"><button type=\"button\" onclick=\"toggleWIP(this)\">WIP</button>&nbsp;<button type=\"button\" onclick=\"showModal('filter_window')\">Filters</button>&nbsp;"+jumpButton+"<div id=\"filter_summary\">"+(filterStr.length > 0 ? filterStr.join(", ") : "")+"</div></th></tr></thead>"
+		return "<thead class=\"headers\"><tr><th class=\"controls\" colspan=\"2\"><button type=\"button\" onclick=\"toggleWIP(this)\">"+(showWIP ? "Hide WIP" : "Show WIP")+"</button>&nbsp;<button type=\"button\" onclick=\"showModal('filter_window')\">Filters</button>&nbsp;"+jumpButton+"<div id=\"filter_summary\">"+(filterStr.length > 0 ? filterStr.join(", ") : "")+"</div></th></tr></thead>"
 	} else {
 		for (var h = 0; h < sortOneColAttributes.length; h++) {
 			var currHeader = sortOneColAttributes[h],
@@ -1296,4 +1296,5 @@ var toggleWIP = function(buttonElement) {
 	showWIP = !showWIP;
 	
 	generateOwnedTable();
+	setURLTargets();
 };
