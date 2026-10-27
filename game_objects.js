@@ -577,6 +577,96 @@ boardGames = [
 		]
 	},
 	{
+		"name": "Firesiege: A Feralis Story",
+		"version": "",
+		"url": "https://boardgamegeek.com/boardgame/378810/firesiege-a-feralis-story",
+		"category": "Board Game",
+		"gameplayType": "Cooperative",
+		"tags": [needsTagsStr, "area defense", "board", "cards", "hidden information"],
+		"minPlayers": 1,
+		"maxPlayers": 4,
+		"numPlayersNote": [
+			"",
+			""
+		],
+		"minTime": 60,
+		"maxTime": 120,
+		"complexity": 2.67,
+		"lastPlayed": noDataStr,
+		"storageLocation": noDataStr,
+		"description": "Tower defense game where everyone is a hero with limited information about the battlefield, communication is restricted, and each must make their own judgement about what the best action is at any time",
+		"notes": "",
+		"wip": true,
+		"expansions": [
+			{
+				"name": "Firesiege: Ballad of Fire",
+				"version": "Expansion",
+				"url": "https://boardgamegeek.com/boardgameexpansion/406508/firesiege-ballad-of-fire",
+				"category": "Board Game",
+				"gameplayType": "Cooperative",
+				"tags": [needsTagsStr, "area defense", "board", "cards", "hidden information"],
+				"minPlayers": 1,
+				"maxPlayers": 5,
+				"numPlayersNote": [
+					"",
+					"Expansion adds support for a 5th player"
+				],
+				"minTime": 60,
+				"maxTime": 90,
+				"complexity": 3.00,
+				"lastPlayed": noDataStr,
+				"storageLocation": noDataStr,
+				"description": "New heroes, troops, monsters, and other content, as well as a growing inferno consuming the city",
+				"notes": "",
+				"wip": true
+			},
+			{
+				"name": "Firesiege: Bastions of Hope",
+				"version": "Expansion",
+				"url": "https://boardgamegeek.com/boardgameexpansion/476580/firesiege-bastions-of-hope",
+				"category": "Board Game",
+				"gameplayType": "Cooperative",
+				"tags": [needsTagsStr, "area defense", "board", "cards", "hidden information"],
+				"minPlayers": 1,
+				"maxPlayers": 5,
+				"numPlayersNote": [
+					"",
+					"Expansion adds support for a 5th player"
+				],
+				"minTime": 60,
+				"maxTime": 90,
+				"complexity": 0,
+				"lastPlayed": noDataStr,
+				"storageLocation": noDataStr,
+				"description": "New defensive structures and emplacements, new heroes, and objectives",
+				"notes": "",
+				"wip": true
+			},
+			{
+				"name": "Firesiege: Creeping Horrors",
+				"version": "Expansion",
+				"url": "https://boardgamegeek.com/boardgameexpansion/476398/firesiege-creeping-horrors",
+				"category": "Board Game",
+				"gameplayType": "Cooperative",
+				"tags": [needsTagsStr, "area defense", "board", "cards", "hidden information"],
+				"minPlayers": 1,
+				"maxPlayers": 5,
+				"numPlayersNote": [
+					"",
+					"Expansion adds support for a 5th player"
+				],
+				"minTime": 60,
+				"maxTime": 90,
+				"complexity": 0,
+				"lastPlayed": noDataStr,
+				"storageLocation": noDataStr,
+				"description": "New unit enhancement effects, movement options, allies, enemies, and objectives",
+				"notes": "",
+				"wip": true
+			}
+		]
+	},
+	{
 		"name": "Five Crowns",
 		"version": "",
 		"url": "https://boardgamegeek.com/boardgame/1472/five-crowns",
@@ -812,7 +902,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/471020/plants-vs-zombies-the-board-game",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": [needsTagsStr, "area defense", "board", "cards", themeStr + "based on a video game"],
+		"tags": [needsTagsStr, "area defense", "board", "cards", "based on a video game"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
