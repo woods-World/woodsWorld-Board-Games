@@ -563,7 +563,7 @@ var generateTables = function() {
 
 var generateOwnedRow = function(currGame, rowNum, gameIndex, expansionIndex) {
 	var gameName = (currGame.name != "" ? encodeEntities(currGame.name) : "Expansion"),
-	gameLink = (currGame.url != "" ? "<a href=\""+currGame.url+"\">"+gameName+"</a>" : gameName),
+	gameLink = (currGame.url != "" ? "<a href=\""+currGame.url+"\">"+gameName+"</a>" : (expansionIndex > -1 ? "<a href=\""+boardGames[gameIndex].url+"/expansions\">"+gameName+"</a>" : gameName)),
 	gameVersion = (currGame.wip ? wipMessage : "") + encodeEntities(currGame.version),
 	gameCategory = formatCategory(currGame.category),
 	gameType = formatGameplay(currGame.gameplayType),
@@ -1202,7 +1202,7 @@ var formatGameName = function(game, format) {
 			expWords = currExp.name.split(" "),
 			lastWord = expWords[expWords.length - 1].toLowerCase(),
 			expName = (currExp.name != "" ? currExp.name + (lastWord == "expansion" ? "" : " expansion") : "expansion"),
-			expMarkup = (currExp.url != "" ? (format == "discord" ? "[" + expName + "](" + currExp.url + ")" : "<a href=\"" + currExp.url + "\">" + expName + "</a>") : expName),
+			expMarkup = (currExp.url != "" ? (format == "discord" ? "[" + expName + "](" + currExp.url + ")" : "<a href=\"" + currExp.url + "\">" + expName + "</a>") : "<a href=\"" + game.url + "/expansions\">" +expName + "</a>"),
 			expPlayer = " for " + (currExp.minPlayers != currExp.maxPlayers ? currExp.minPlayers + "-" + currExp.maxPlayers : currExp.minPlayers) + " players",
 			expTime = ", " + (currExp.minTime != currExp.maxTime ? currExp.minTime + "-" + currExp.maxTime : currExp.minTime) + " minutes";
 			

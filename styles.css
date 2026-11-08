@@ -21,13 +21,15 @@ table {
 }
 #keyword_container {
 	text-align: center;
+	overflow-y: auto;
+	max-height: 75vh;
 }
 #row_menu {
 	max-width: 80vw;
 }
 #tag_container {
 	overflow-y: auto;
-	max-height: 95vh;
+	max-height: 75vh;
 }
 #tag_table td {
 	border-top: 1px dotted black;

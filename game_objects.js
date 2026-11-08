@@ -462,6 +462,29 @@ boardGames = [
 		]
 	},
 	{
+		"name": "Diablo: Unbound",
+		"version": "",
+		"url": "https://boardgamegeek.com/boardgame/405279/diablo-unbound",
+		"category": "Board Game",
+		"gameplayType": "Cooperative",
+		"tags": [needsTagsStr, "based on a video game", "board"],
+		"minPlayers": 1,
+		"maxPlayers": 4,
+		"numPlayersNote": [
+			"",
+			""
+		],
+		"minTime": 90,
+		"maxTime": 90,
+		"complexity": 0,
+		"lastPlayed": noDataStr,
+		"storageLocation": noDataStr,
+		"description": "Dungeon crawler with different classes and associated skill trees, loot, monsters, and bosses",
+		"notes": "Based on the Diablo video game franchise",
+		"wip": true,
+		"expansions": []
+	},
+	{
 		"name": "Die in the Dungeon: The Board Game",
 		"version": "Deluxe Edition",
 		"url": "https://boardgamegeek.com/boardgame/462623/die-in-the-dungeon-the-board-game",
@@ -526,7 +549,7 @@ boardGames = [
 		"lastPlayed": "2026",
 		"storageLocation": "Home",
 		"description": "Social deduction game with crewmates, pirates, and one cultist trying to steer the ship toward their preferred destination",
-		"notes": "",
+		"notes": "Basically pirate-themed Secret Hitler",
 		"wip": false,
 		"expansions": []
 	},
@@ -902,7 +925,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/471020/plants-vs-zombies-the-board-game",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": [needsTagsStr, "area defense", "board", "cards", "based on a video game"],
+		"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -911,21 +934,20 @@ boardGames = [
 		],
 		"minTime": 30,
 		"maxTime": 60,
-		"complexity": 0,
+		"complexity": 2.00,
 		"lastPlayed": noDataStr,
 		"storageLocation": noDataStr,
 		"description": "Gather sunlight to grow plants and defend the house against zombies",
 		"notes": "Based on the video game franchise of the same name",
 		"wip": true,
 		"expansions": [
-			/*
 			{
-				"name": "Night Expansion",
+				"name": "Night Edition",
 				"version": "Expansion",
-				"url": "https://boardgamegeek.com/boardgame/471020/plants-vs-zombies-the-board-game/expansions",
+				"url": "https://boardgamegeek.com/boardgameexpansion/481827/plants-vs-zombies-the-board-game-night-edition",
 				"category": "Board Game",
 				"gameplayType": "Cooperative",
-				"tags": [needsTagsStr, "area defense", "board", "cards", themeStr + "based on a video game"],
+				"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards"],
 				"minPlayers": 1,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -934,20 +956,20 @@ boardGames = [
 				],
 				"minTime": 30,
 				"maxTime": 60,
-				"complexity": 0.00,
+				"complexity": 2.00,
 				"lastPlayed": noDataStr,
 				"storageLocation": noDataStr,
 				"description": "Adds content from the game's night mode, including new plants, enemies, and challenges",
 				"notes": "",
 				"wip": true
-			},
+			}/*,
 			{
 				"name": "Pool Party Mini Expansion",
 				"version": "Expansion",
-				"url": "https://boardgamegeek.com/boardgame/471020/plants-vs-zombies-the-board-game/expansions",
+				"url": "",
 				"category": "Board Game",
 				"gameplayType": "Cooperative",
-				"tags": [needsTagsStr, "area defense", "board", "cards", themeStr + "based on a video game"],
+				"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards"],
 				"minPlayers": 1,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -966,10 +988,10 @@ boardGames = [
 			{
 				"name": "Pirate Seas Mini Expansion",
 				"version": "Expansion",
-				"url": "https://boardgamegeek.com/boardgame/471020/plants-vs-zombies-the-board-game/expansions",
+				"url": "",
 				"category": "Board Game",
 				"gameplayType": "Cooperative",
-				"tags": [needsTagsStr, "area defense", "board", "cards", themeStr + "based on a video game"],
+				"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards"],
 				"minPlayers": 1,
 				"maxPlayers": 4,
 				"numPlayersNote": [
