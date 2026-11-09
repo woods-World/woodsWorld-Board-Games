@@ -261,7 +261,7 @@ var changeSort = function(newSortCol) {
 	}
 };
 
-var changeSortTag = function(newSortTag) {
+var changeSortTag = function(newSortTag, gameIndex, expansionIndex) {
 	sortColumn = "tags";
 	
 	if (sortTag == newSortTag) {
@@ -271,9 +271,17 @@ var changeSortTag = function(newSortTag) {
 		sortAscending = true;
 	}
 	
+	// save the current game index before the sort and get the name to locate the game's new index after the sort
+	var newGameIndex = gameIndex,
+	gameName = (gameIndex > -1 ? boardGames[gameIndex].name + boardGames[gameIndex].version : "");
+	
 	generateOwnedTable();
 	setURLTargets();
-	populateTagModal(-1, -1);
+	
+	if (gameIndex > -1) {
+		newGameIndex = boardGames.findIndex(game => game.name + game.version == gameName);
+	}
+	populateTagModal(newGameIndex, expansionIndex);
 };
 
 var populateKeywordModal = function() {
@@ -345,7 +353,7 @@ var populateTagModal = function(gameIndex, expansionIndex) {
 				arrow = (sortAscending ? upArrow : downArrow);
 			}
 			
-			var currTag = "<tr><td class=\"highlight_element\" onclick=\"changeSortTag('"+formattedTag+"')\">" + formattedTag + arrow + "</td></tr>";
+			var currTag = "<tr><td class=\"highlight_element\" onclick=\"changeSortTag('"+formattedTag+"', "+gameIndex+", "+expansionIndex+")\">" + formattedTag + arrow + "</td></tr>";
 			
 			tagRows.push(currTag);
 		}
@@ -369,7 +377,12 @@ var populateTagModal = function(gameIndex, expansionIndex) {
 		
 		for (var t = 0; t < currGame.tags.length; t++) {
 			var formattedTag = currGame.tags[t].replaceAll("'", "&#39;"),
-			currTag = "<tr><td>" + formattedTag + "</td></tr>";
+			arrow = "";
+			if (sortColumn == "tags" && sortTag == currGame.tags[t]) {
+				arrow = (sortAscending ? upArrow : downArrow);
+			}
+			
+			var currTag = "<tr><td class=\"highlight_element\" onclick=\"changeSortTag('"+formattedTag+"', "+gameIndex+", "+expansionIndex+")\">" + formattedTag + arrow + "</td></tr>";
 			
 			tagRows.push(currTag);
 		}
