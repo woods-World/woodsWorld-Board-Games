@@ -94,6 +94,29 @@ boardGames = [
 		]
 	},
 	{
+		"name": "Akara",
+		"version": "",
+		"url": "https://boardgamegeek.com/boardgame/462142/akara",
+		"category": "Board Game",
+		"gameplayType": "Competitive",
+		"tags": [needsTagsStr, "board", "last one standing", "no randomness", "player elimination"],
+		"minPlayers": 2,
+		"maxPlayers": 4,
+		"numPlayersNote": [
+			"",
+			""
+		],
+		"minTime": 20,
+		"maxTime": 60,
+		"complexity": 2.00,
+		"lastPlayed": "2026",
+		"storageLocation": noDataStr,
+		"description": "Move pieces on a board like Chinese Checkers, but the pieces can be changed to have different move and capture rules; either capture the opponent's king, or move your king to the center to win",
+		"notes": "",
+		"wip": true,
+		"expansions": []
+	},
+	{
 		"name": "Almighty: The Godliest God Game",
 		"version": "",
 		"url": "https://boardgamegeek.com/boardgame/382158/almighty",
@@ -160,6 +183,29 @@ boardGames = [
 		"description": "A Great Old One is awakening in Arkham and your party has to figure out how to stop them before they wake up and destroy everything",
 		"notes": "Old game, the board's folds aren't all intact anymore",
 		"wip": false,
+		"expansions": []
+	},
+	{
+		"name": "Arkham Horror: Remastered",
+		"version": "2nd Edition",
+		"url": "https://boardgamegeek.com/boardgame/480156/arkham-horror-remastered",
+		"category": "Board Game",
+		"gameplayType": "Cooperative",
+		"tags": ["board", "cards", "dice", themeStr + "supernatural horror"],
+		"minPlayers": 1,
+		"maxPlayers": 8,
+		"numPlayersNote": [
+			"",
+			""
+		],
+		"minTime": 120,
+		"maxTime": 240,
+		"complexity": 3.00,
+		"lastPlayed": noDataStr,
+		"storageLocation": noDataStr,
+		"description": "A Great Old One is awakening in Arkham and your party has to figure out how to stop them before they wake up and destroy everything",
+		"notes": "",
+		"wip": true,
 		"expansions": []
 	},
 	{
