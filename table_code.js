@@ -46,7 +46,7 @@ indentArrow = "<span class=\"indent_arrow\">&rdca;</span>&nbsp;";
 
 var encodeEntities = function(str) {
 	return str.replace(
-		/<a\b[^>]*>.*?<\/a\s*>|&(?![#\w]+;)|[<>"']/gis,
+		/<a\b[^>]*>.*?<\/a\s*>|&(?![#\w]+;)|[<>"']|(\\n)/gis,
 		match => {
 			if (/^<a\b/i.test(match)) {
 				return match;
@@ -57,7 +57,8 @@ var encodeEntities = function(str) {
 				'<': '&lt;',
 				'>': '&gt;',
 				'"': '&quot;',
-				"'": '&#39;'
+				"'": '&#39;',
+				"\\n": "<br>"
 			}[match];
 		}
 	);
@@ -362,10 +363,14 @@ var populateTagModal = function(gameIndex, expansionIndex) {
 		tagTable.innerHTML = tagRows.join("");
 	} else {
 		var currGame = {},
+		parentGame = null,
+		parentGameName = "",
 		tagRows = [];
 		
 		if (expansionIndex > -1) {
 			currGame = boardGames[gameIndex].expansions[expansionIndex];
+			parentGame = boardGames[gameIndex];
+			parentGameName = (parentGame.url != "" ? "<a href=\""+parentGame.url+"\">"+encodeEntities(parentGame.name)+"</a>" : encodeEntities(parentGame.name));
 		} else {
 			currGame = boardGames[gameIndex];
 		}
@@ -373,7 +378,7 @@ var populateTagModal = function(gameIndex, expansionIndex) {
 		lastWord = gameName.split(" ").pop();
 		
 		gameName = (gameName + (expansionIndex > -1 && lastWord != "Expansion" ? " Expansion" : "")).trim();
-		tagLabel.innerHTML = "Tags for " + (currGame.url != "" ? "<a href=\""+currGame.url+"\">"+gameName+"</a>" : gameName);
+		tagLabel.innerHTML = "Tags for " + (currGame.url != "" ? "<a href=\""+currGame.url+"\">"+gameName+"</a>" : gameName) + (expansionIndex > -1 ?" of " + parentGameName : "");
 		
 		for (var t = 0; t < currGame.tags.length; t++) {
 			var formattedTag = currGame.tags[t].replaceAll("'", "&#39;"),

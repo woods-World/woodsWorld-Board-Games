@@ -99,7 +99,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/462142/akara",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "board", "last one standing", "no randomness", "player elimination"],
+		"tags": [needsTagsStr, "crowdfunding not started yet", "board", "last one standing", "no randomness", "player elimination"],
 		"minPlayers": 2,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -112,7 +112,7 @@ boardGames = [
 		"lastPlayed": "2026",
 		"storageLocation": noDataStr,
 		"description": "Move pieces on a board like Chinese Checkers, but the pieces can be changed to have different move and capture rules; either capture the opponent's king, or move your king to the center to win",
-		"notes": "",
+		"notes": "<a href=\"https://www.kickstarter.com/projects/mythworks/akara\">Kickstarter page</a>",
 		"wip": true,
 		"expansions": []
 	},
@@ -191,7 +191,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/480156/arkham-horror-remastered",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": ["board", "cards", "dice", themeStr + "supernatural horror"],
+		"tags": [needsTagsStr, "board", "cards", "dice", themeStr + "supernatural horror"],
 		"minPlayers": 1,
 		"maxPlayers": 8,
 		"numPlayersNote": [
@@ -513,7 +513,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/405279/diablo-unbound",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": [needsTagsStr, "based on a video game", "board"],
+		"tags": [needsTagsStr, "crowdfunding not started yet", "based on a video game", "board"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -526,7 +526,7 @@ boardGames = [
 		"lastPlayed": noDataStr,
 		"storageLocation": noDataStr,
 		"description": "Dungeon crawler with different classes and associated skill trees, loot, monsters, and bosses",
-		"notes": "Based on the Diablo video game franchise",
+		"notes": "Based on the Diablo video game franchise\n<a href=\"https://gamefound.com/en/projects/glass-cannon-unplugged/diablo-unbound\">Gamefound page</a>",
 		"wip": true,
 		"expansions": []
 	},
