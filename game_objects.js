@@ -31,7 +31,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/395834/aberration",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": [needsTagsStr, "area defense", "board", "cards", "dice", themeStr + "supernatural horror", "worker placement"],
+		"tags": [needsTagsStr, "area defense", "board", "cards", "crowdfunding game", "dice", themeStr + "supernatural horror", "worker placement"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -53,7 +53,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgameexpansion/476472/aberration-arcanists-and-abominations",
 				"category": "Board Game",
 				"gameplayType": "Cooperative",
-				"tags": [needsTagsStr, "area defense", "board", "cards", "dice", themeStr + "supernatural horror", "worker placement"],
+				"tags": [needsTagsStr, "area defense", "board", "cards", "crowdfunding game", "dice", themeStr + "supernatural horror", "worker placement"],
 				"minPlayers": 1,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -75,7 +75,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgameexpansion/476392/aberration-oblivions-embrace",
 				"category": "Board Game",
 				"gameplayType": "Cooperative",
-				"tags": [needsTagsStr, "area defense", "board", "cards", "dice", "narrative", "roguelike", themeStr + "supernatural horror", "worker placement"],
+				"tags": [needsTagsStr, "area defense", "board", "cards", "crowdfunding game", "dice", "narrative", "roguelike", themeStr + "supernatural horror", "worker placement"],
 				"minPlayers": 1,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -99,7 +99,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/462142/akara",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "crowdfunding not started yet", "board", "last one standing", "no randomness", "player elimination"],
+		"tags": [needsTagsStr, "crowdfunding not started yet", "board", "crowdfunding game", "last one standing", "no randomness", "player elimination"],
 		"minPlayers": 2,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -122,7 +122,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/382158/almighty",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "board", themeStr + "competing deities"],
+		"tags": [needsTagsStr, "board", "crowdfunding game", themeStr + "competing deities"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -191,7 +191,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/480156/arkham-horror-remastered",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": [needsTagsStr, "board", "cards", "dice", themeStr + "supernatural horror"],
+		"tags": [needsTagsStr, "board", "cards", "crowdfunding game", "dice", themeStr + "supernatural horror"],
 		"minPlayers": 1,
 		"maxPlayers": 8,
 		"numPlayersNote": [
@@ -214,7 +214,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/258295/ascendancy",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "board", "cards", themeStr + "competing for the crown"],
+		"tags": [needsTagsStr, "board", "cards", "crowdfunding game", themeStr + "competing for the crown"],
 		"minPlayers": 2,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -306,7 +306,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/425745/blasphemous-the-board-game",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "based on a video game", "board", "dice", themeStr + "post-apocalypse"],
+		"tags": [needsTagsStr, "based on a video game", "board", "crowdfunding game", "dice", themeStr + "post-apocalypse"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -421,7 +421,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/380135/dead-cells-the-rogue-lite-board-game",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": ["based on a video game", "board", "cards", "dice", "roguelike"],
+		"tags": ["based on a video game", "board", "cards", "crowdfunding game", "dice", "roguelike"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -444,7 +444,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/369103/dead-by-daylight-the-board-game-collectors-edition",
 		"category": "Board Game",
 		"gameplayType": "Team-Competitive",
-		"tags": ["asymmetric gameplay/victory", "based on a video game", "board", "dice", "player elimination", themeStr + "supernatural horror"],
+		"tags": ["asymmetric gameplay/victory", "based on a video game", "board", "crowdfunding game", "dice", "player elimination", themeStr + "supernatural horror"],
 		"minPlayers": 3,
 		"maxPlayers": 5,
 		"numPlayersNote": [
@@ -513,7 +513,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/405279/diablo-unbound",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": [needsTagsStr, "crowdfunding not started yet", "based on a video game", "board"],
+		"tags": [needsTagsStr, "crowdfunding game", "crowdfunding not started yet", "based on a video game", "board"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -536,7 +536,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/462623/die-in-the-dungeon-the-board-game",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": [needsTagsStr, "based on a video game", "board", "dice", "roguelike"],
+		"tags": [needsTagsStr, "based on a video game", "board", "crowdfunding game", "dice", "roguelike"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -651,7 +651,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/378810/firesiege-a-feralis-story",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": [needsTagsStr, "area defense", "board", "cards", "hidden information"],
+		"tags": [needsTagsStr, "area defense", "board", "cards", "crowdfunding game", "hidden information"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -673,7 +673,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgameexpansion/406508/firesiege-ballad-of-fire",
 				"category": "Board Game",
 				"gameplayType": "Cooperative",
-				"tags": [needsTagsStr, "area defense", "board", "cards", "hidden information"],
+				"tags": [needsTagsStr, "area defense", "board", "cards", "crowdfunding game", "hidden information"],
 				"minPlayers": 1,
 				"maxPlayers": 5,
 				"numPlayersNote": [
@@ -695,7 +695,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgameexpansion/476580/firesiege-bastions-of-hope",
 				"category": "Board Game",
 				"gameplayType": "Cooperative",
-				"tags": [needsTagsStr, "area defense", "board", "cards", "hidden information"],
+				"tags": [needsTagsStr, "area defense", "board", "cards", "crowdfunding game", "hidden information"],
 				"minPlayers": 1,
 				"maxPlayers": 5,
 				"numPlayersNote": [
@@ -717,7 +717,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgameexpansion/476398/firesiege-creeping-horrors",
 				"category": "Board Game",
 				"gameplayType": "Cooperative",
-				"tags": [needsTagsStr, "area defense", "board", "cards", "hidden information"],
+				"tags": [needsTagsStr, "area defense", "board", "cards", "crowdfunding game", "hidden information"],
 				"minPlayers": 1,
 				"maxPlayers": 5,
 				"numPlayersNote": [
@@ -764,7 +764,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/444234/for-the-gods",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "board", themeStr + "competing deities"],
+		"tags": [needsTagsStr, "board", "crowdfunding game", themeStr + "competing deities"],
 		"minPlayers": 2,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -879,7 +879,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/446453/kalypso",
 		"category": "Board Game",
 		"gameplayType": "Competitive/Cooperative",
-		"tags": [needsTagsStr, "board", themeStr + "city building", themeStr + "post-apocalypse", "tile placement"],
+		"tags": [needsTagsStr, "board", "crowdfunding game", themeStr + "city building", themeStr + "post-apocalypse", "tile placement"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -971,7 +971,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/471020/plants-vs-zombies-the-board-game",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards"],
+		"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards", "crowdfunding game"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -993,7 +993,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgameexpansion/481827/plants-vs-zombies-the-board-game-night-edition",
 				"category": "Board Game",
 				"gameplayType": "Cooperative",
-				"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards"],
+				"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards", "crowdfunding game"],
 				"minPlayers": 1,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -1015,7 +1015,7 @@ boardGames = [
 				"url": "",
 				"category": "Board Game",
 				"gameplayType": "Cooperative",
-				"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards"],
+				"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards", "crowdfunding game"],
 				"minPlayers": 1,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -1037,7 +1037,7 @@ boardGames = [
 				"url": "",
 				"category": "Board Game",
 				"gameplayType": "Cooperative",
-				"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards"],
+				"tags": [needsTagsStr, "area defense", "based on a video game", "board", "cards", "crowdfunding game"],
 				"minPlayers": 1,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -1085,7 +1085,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/420575/red-tides-a-tale-of-new-caribbea",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": [needsTagsStr, "board", themeStr + "pirates"],
+		"tags": [needsTagsStr, "board", "crowdfunding game", themeStr + "pirates"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -1103,12 +1103,12 @@ boardGames = [
 		"expansions": []
 	},
 	{
-		"name": "Restart",
+		"name": "Restart Your Future",
 		"version": "Deluxe Edition",
-		"url": "https://boardgamegeek.com/boardgame/377045/restart",
+		"url": "https://boardgamegeek.com/boardgame/377045/restart-your-future",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "board", "cards", "dice", themeStr + "dystopia", themeStr + "time travel"],
+		"tags": [needsTagsStr, "board", "cards", "crowdfunding game", "dice", themeStr + "dystopia", themeStr + "time travel"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -1130,7 +1130,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgameexpansion/469940/restart-duality-mini-expansion",
 				"category": "Board Game",
 				"gameplayType": "Competitive",
-				"tags": [needsTagsStr, "board", "cards", "dice", themeStr + "dystopia", themeStr + "time travel"],
+				"tags": [needsTagsStr, "board", "cards", "crowdfunding game", "dice", themeStr + "dystopia", themeStr + "time travel"],
 				"minPlayers": 1,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -1152,7 +1152,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgameexpansion/469939/restart-gadgets-expansion",
 				"category": "Board Game",
 				"gameplayType": "Competitive",
-				"tags": [needsTagsStr, "board", "cards", "dice", themeStr + "dystopia", themeStr + "time travel"],
+				"tags": [needsTagsStr, "board", "cards", "crowdfunding game", "dice", themeStr + "dystopia", themeStr + "time travel"],
 				"minPlayers": 1,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -1176,7 +1176,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgameexpansion/428695/restart-sand-and-cables",
 				"category": "Board Game",
 				"gameplayType": "Competitive",
-				"tags": [needsTagsStr, "board", "cards", "dice", themeStr + "dystopia", themeStr + "time travel"],
+				"tags": [needsTagsStr, "board", "cards", "crowdfunding game", "dice", themeStr + "dystopia", themeStr + "time travel"],
 				"minPlayers": 1,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -1246,7 +1246,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgame/428335/root-the-homeland-expansion",
 				"category": "Board Game",
 				"gameplayType": "Competitive",
-				"tags": ["asymmetric gameplay/victory", "board", "cards", "dice", "worker placement"],
+				"tags": ["asymmetric gameplay/victory", "board", "cards", "crowdfunding game", "dice", "worker placement"],
 				"minPlayers": 2,
 				"maxPlayers": 6,
 				"numPlayersNote": [
@@ -1268,7 +1268,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgameexpansion/431220/root-homeland-hirelings-pack",
 				"category": "Board Game",
 				"gameplayType": "Competitive",
-				"tags": ["asymmetric gameplay/victory", "board", "cards", "dice", "worker placement"],
+				"tags": ["asymmetric gameplay/victory", "board", "cards", "crowdfunding game", "dice", "worker placement"],
 				"minPlayers": 2,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -1290,7 +1290,7 @@ boardGames = [
 				"url": "https://boardgamegeek.com/boardgameexpansion/431218/root-the-squires-and-disciples-deck",
 				"category": "Board Game",
 				"gameplayType": "Competitive",
-				"tags": ["asymmetric gameplay/victory", "board", "cards", "dice", "worker placement"],
+				"tags": ["asymmetric gameplay/victory", "board", "cards", "crowdfunding game", "dice", "worker placement"],
 				"minPlayers": 2,
 				"maxPlayers": 4,
 				"numPlayersNote": [
@@ -1314,7 +1314,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/478662/satisfactory-the-board-game",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "based on a video game", "board", "cards", themeStr + "digging for resources", themeStr + "space"],
+		"tags": [needsTagsStr, "based on a video game", "board", "cards", "crowdfunding game", themeStr + "digging for resources", themeStr + "space"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -1406,7 +1406,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/442750/super-pixel-tactics",
 		"category": "Card Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "cards"],
+		"tags": [needsTagsStr, "cards", "crowdfunding game"],
 		"minPlayers": 2,
 		"maxPlayers": 2,
 		"numPlayersNote": [
@@ -1452,7 +1452,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/391286/terraria-the-board-game",
 		"category": "Board Game",
 		"gameplayType": "Cooperative",
-		"tags": ["based on a video game", "board", "cards", "dice", themeStr + "digging for resources"],
+		"tags": ["based on a video game", "board", "cards", "crowdfunding game", "dice", themeStr + "digging for resources"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -1475,7 +1475,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/402278/the-flames-of-fafnir",
 		"category": "Board Game",
 		"gameplayType": "Competitive/Cooperative",
-		"tags": [needsTagsStr, "area defense", "board"],
+		"tags": [needsTagsStr, "area defense", "board", "crowdfunding game"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -1521,7 +1521,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/357873/the-old-kings-crown",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "board", "cards", themeStr + "competing for the crown"],
+		"tags": [needsTagsStr, "board", "cards", "crowdfunding game", themeStr + "competing for the crown"],
 		"minPlayers": 1,
 		"maxPlayers": 4,
 		"numPlayersNote": [
@@ -1567,7 +1567,7 @@ boardGames = [
 		"url": "https://boardgamegeek.com/boardgame/466688/unearth-10th-anniversary-edition",
 		"category": "Board Game",
 		"gameplayType": "Competitive",
-		"tags": [needsTagsStr, "board", themeStr + "digging for resources"],
+		"tags": [needsTagsStr, "board", "crowdfunding game", themeStr + "digging for resources"],
 		"minPlayers": 1,
 		"maxPlayers": 5,
 		"numPlayersNote": [

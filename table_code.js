@@ -46,7 +46,7 @@ indentArrow = "<span class=\"indent_arrow\">&rdca;</span>&nbsp;";
 
 var encodeEntities = function(str) {
 	return str.replace(
-		/<a\b[^>]*>.*?<\/a\s*>|&(?![#\w]+;)|[<>"']|(\\n)/gis,
+		/<a\b[^>]*>.*?<\/a\s*>|&(?![#\w]+;)|[<>"']|(\n)/gis,
 		match => {
 			if (/^<a\b/i.test(match)) {
 				return match;
@@ -58,7 +58,7 @@ var encodeEntities = function(str) {
 				'>': '&gt;',
 				'"': '&quot;',
 				"'": '&#39;',
-				"\\n": "<br>"
+				"\n": "<br>"
 			}[match];
 		}
 	);
